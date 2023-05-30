@@ -138,7 +138,7 @@ function end(){     // changes css for end screen
     $(".screen").css("grid-template-rows","");
     $(".screen").css("padding","10px 30px 10px 30px ");
     $(".screen").append("<h1>Score: "+score+"</h1>");
-    $(".screen").append("<a href='/Users/rob/Coding/Snake/index.html'>Retry?</a>");
+    $(".screen").append("<a href='https://robkenhow77.github.io/Snake/'>Retry?</a>");
 
 
 
