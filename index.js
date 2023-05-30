@@ -93,7 +93,7 @@ function dot(){
         appleX = Math.floor(Math.random()*screenColumns);
         appleY = 1 + Math.floor(Math.random()*screenRows);
         apple = [appleX,appleY];
-        $(".screen").children().eq(positionFunc(apple[0], apple[1])).html("<img src='/Users/rob/Coding/Snake/apple.svg' alt=''></img>");
+        $(".screen").children().eq(positionFunc(apple[0], apple[1])).html("<img src='apple.svg' alt=''></img>");
         score +=1;
         
     } else {
