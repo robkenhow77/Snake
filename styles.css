@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.screen{
+    
+    gap:2px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-color: black;
+    border:10px;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
+.screen > div {
+    height: 30px;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.screen > div >img{
+    height: 90%;
+    width:90%;
+    
+    
+}
+

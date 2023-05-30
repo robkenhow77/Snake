@@ -1,0 +1,7 @@
+Notes:
+Main objectives: JQuerey, git and launching a server.
+Very basic design, not focusing on CSS, more on functionality. 
+
+
+Improvements:
+Should have made the inplay zone an offset of the total zone so you don't get the snake going from one sode of the scrren to the other. 
