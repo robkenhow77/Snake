@@ -54,7 +54,7 @@ for (let i = 0; i <totalPixels;i++){
 game = setInterval(dot,speed);
 
 //Apple is randomly spawned in
-$(".screen").children().eq(positionFunc(apple[0], apple[1])).html("<img src='/Users/rob/Coding/Snake/apple.svg' alt=''></img>");
+$(".screen").children().eq(positionFunc(apple[0], apple[1])).html("<img src='apple.svg' alt=''></img>");
 
 
 
@@ -138,7 +138,7 @@ function end(){     // changes css for end screen
     $(".screen").css("grid-template-rows","");
     $(".screen").css("padding","10px 30px 10px 30px ");
     $(".screen").append("<h1>Score: "+score+"</h1>");
-    $(".screen").append("<a href='https://robkenhow77.github.io/Snake/'>Retry?</a>");
+    $(".screen").append("<a href='https://robkenhow77.github.io/Snake'>Retry?</a>");
 
 
 
